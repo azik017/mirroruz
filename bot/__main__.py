@@ -45,8 +45,8 @@ def stats(update, context):
 
 def start(update, context):
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("Repo", "https://github.com/SlamDevs/slam-mirrorbot")
-    buttons.buildbutton("Channel", "https://t.me/SlamMirrorUpdates")
+    buttons.buildbutton("Admin", "https://t.me/azik_developer")
+    buttons.buildbutton("Channel", "https://t.me/azik_projects")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
 
     start_string = f'''Hi there Good Morning !
